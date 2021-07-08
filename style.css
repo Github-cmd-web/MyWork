@@ -1,0 +1,101 @@
+body {
+    padding-top: 650px;
+    text-align: center;
+}
+
+#image {
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    color: aliceblue;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(#039BE5 0%, #00C853 100%);
+    width: 100%;
+    height: 65%;
+    display: table;
+}
+
+.line{
+    width:80px;
+    height: 5px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+.image-div{
+text-align: center;
+vertical-align: middle;
+display: table-cell;
+position: relative;
+}
+
+#bio{
+    text-align: center;
+    padding-bottom: 75px;
+    font-size: 20px;
+}
+
+p {
+    max-width: 750px;
+    font-size: 20px;
+    line-height: 1.3;
+    margin: 25px auto;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    border: black;
+    border-style: solid;
+    border-width: 4px;
+}
+
+.link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.link:hover{
+    background-color: blue;
+}
+
+a{
+    text-decoration: none;
+    color:maroon;
+}
+
+iframe{
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+h1{
+    font-family: monospace;
+    font-weight: 250;
+    font-size: 25px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#hobby{
+    font-style: italic;
+}
